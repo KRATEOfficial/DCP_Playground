@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="jumbotron">
+        <h1 class="display-4">DCP Test</h1>
+        <hr class="my-4">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Search Word</span>
+            </div>
+            <input id="searchWord" v-model="searchWord" type="text" class="form-control">
+            <button type="button" v-on:click="search" class="btn btn-primary">Search!</button>
+        </div>
+    </div>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'You loaded this page on ' + new Date().toLocaleString(),
+            searchWord: ''
+        },
+        methods: {
+            search: function () {
+                console.log(this.searchWord);
+                // axios.post('http://localhost:3000/', {
+                //     data: this.searchWord
+                // });
+                axios.post('/rec', {
+                    searchWord: this.searchWord
+                })
+                .then(function (response) {
+                    console.log(response);
+                });
+
+            }
+        }
+    })
+</script>
+</body>
+</html>
