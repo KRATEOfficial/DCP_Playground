@@ -43,9 +43,5 @@ app.use(function(err, req, res, next) {
 //   res.sendFile(path.join(__dirname + '/public/index.html'));
 // });
 
-app.post('/rec', function (req, res) {
-  res.send('Received POST');
-  res.end();
-});
 
 module.exports = app;

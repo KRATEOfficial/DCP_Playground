@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5384e077-dac5-4a49-a6b8-915c10108d0e" name="Default Changelist" comment="" />
+    <list default="true" id="5384e077-dac5-4a49-a6b8-915c10108d0e" name="Default Changelist" comment="``">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1geGxAODyWMAs51j4RALP2hvfId" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.17.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,6 +58,9 @@
       <updated>1598467888304</updated>
       <workItem from="1598467893498" duration="4048000" />
       <workItem from="1598476977132" duration="6065000" />
+      <workItem from="1598552811858" duration="735000" />
+      <workItem from="1598633054163" duration="1091000" />
+      <workItem from="1598634166881" duration="1412000" />
     </task>
     <servers />
   </component>
@@ -57,26 +72,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1034" y="301" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598468815295" />
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1598634520639">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="905" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598634520639" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1598469490575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598469490575" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1598489783150">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1598635483299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598489783150" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1598489783150">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598635483299" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1598635483299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598489783150" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1598489783150">
+    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598635483299" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1598635483299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598489783150" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1598489783150">
+    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598635483299" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1598635483299">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598489783150" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1600.279.1600.860@0.0.2560.1400" timestamp="1598635483299" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -84,7 +103,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app.js</url>
           <line>38</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

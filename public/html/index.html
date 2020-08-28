@@ -32,11 +32,18 @@
         },
         methods: {
             search: function () {
-                console.log(this.searchWord);
-                // axios.post('http://localhost:3000/', {
-                //     data: this.searchWord
+                //console.log("From HTML: " + this.searchWord);
+                // axios.post({
+                //     url: '/',
+                //     headers: {
+                //         'Content-Type': 'application/json'
+                //     },
+                //     body: JSON.stringify({
+                //         searchWord: this.searchWord
+                //     })
                 // });
-                axios.post('/rec', {
+
+                axios.post('/', {
                     searchWord: this.searchWord
                 })
                 .then(function (response) {
